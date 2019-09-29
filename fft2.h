@@ -6,10 +6,11 @@
 #include <memory>
 #include <algorithm>
 #include <vector>
-#include "fftw3.h"
-#define _USE_MATH_DEFINES
 #include <math.h>
+
 #include "fft.h"
+#include "fftw32/include/fftw3.h"
+#define _USE_MATH_DEFINES
 
 
 #pragma comment(lib, "libfftw3f-3.lib")
